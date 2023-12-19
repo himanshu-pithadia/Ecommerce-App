@@ -8,9 +8,9 @@ from django.views.decorators.csrf import csrf_exempt
 gateway = braintree.BraintreeGateway(
   braintree.Configuration(
     environment=braintree.Environment.Sandbox,
-    merchant_id='5smrty9rbwgyscft',
-    public_key='zq2kwtvpbg9y89s4',
-    private_key='439dc2e871689c51d762b87a5c69da76'
+    merchant_id='',
+    public_key='',
+    private_key=''
   )
 )
 
